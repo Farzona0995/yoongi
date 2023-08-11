@@ -11,3 +11,18 @@
     align-items: center;
     justify-content: center;
 }
+
+.main {
+    background: cornflowerblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background: rgb(236, 126, 236);
+    clip-path: polygon(50% 0%, 90% 20%, 100% 47%, 75% 100%, 25% 100%, 0 48%, 10% 20%);
+}
